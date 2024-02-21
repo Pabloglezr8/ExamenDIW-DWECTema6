@@ -25,6 +25,7 @@ body {
 
 }
 
+
 .menu ul {
     display: flex;
     flex-direction: row;
@@ -72,7 +73,7 @@ body {
     position: absolute;
     text-align: center;
     font-size: xx-large;
-    top: 8rem;
+    top: 20rem;
     left: 2rem;
     color: white;
 }
@@ -121,8 +122,8 @@ img {
 }
 
 .line {
-    width: 35%;
-    height: 10px;
+    width: 38%;
+    height: 15px;
     border-radius: 20px;
     background: linear-gradient(rgb(0, 139, 139) 15%, rgb(0, 0, 0, 0.3)60%);
     ;
@@ -163,24 +164,29 @@ img {
     height: 100%;
     display: grid;
     place-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .overlay picture {
     display: block;
     max-width: 80rem;
+}
+
+.overlay img{
     border-radius: 20px;
 }
 
 .btn-cerrar {
     width: 4rem;
     height: 4rem;
-    border-radius: 50%;
+    border-radius: 5%;
     background-color: darkcyan;
     color: #000000;
     display: grid;
     place-items: center;
     font-weight: 700;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .btn-cerrar:hover {
@@ -240,6 +246,10 @@ img {
     .galeria h1 {
         font-size: 30px;
     }
+
+    .line {
+        height: 10px;
+    }
 }
 
 
@@ -263,6 +273,11 @@ img {
 
     .galeria h1 {
         font-size: 20px;
+        margin: 1rem;
+    }
+
+    .line {
+    height: 5px;
     }
 }
 
@@ -298,6 +313,10 @@ img {
 
     .galeria h1 {
         font-size: medium;
+    }
+
+    .line {
+        height: 2px;
     }
 }
 
